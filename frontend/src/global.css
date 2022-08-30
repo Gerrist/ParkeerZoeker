@@ -1,0 +1,23 @@
+:root {
+  --color-green-primary: #01c235;
+  --color-green-secondary: #10d646;
+  --color-blue-primary: #3544FD;
+  --color-blue-secondary: #6570FD;
+  --color-red-primary: #fc493f;
+  --color-red-secondary: #fd7872;
+
+  --gradient-green: linear-gradient(88.72deg, var(--color-green-primary) 0%, var(--color-green-secondary) 100%);
+  --gradient-blue: linear-gradient(88.72deg, var(--color-blue-primary) 0%, var(--color-blue-secondary) 100%);
+  --gradient-red: linear-gradient(88.72deg, var(--color-red-primary) 0%, var(--color-red-secondary) 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: 'Barlow', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
